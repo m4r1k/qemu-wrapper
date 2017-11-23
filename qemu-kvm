@@ -6,21 +6,6 @@ while [ $# -gt 0 ]
 do
         case "$1" in
         -netdev|-device)
-                #if [[ "$2" =~ "piix3-usb-uhci" ]]
-                #then
-                #       # Delete "-device" section
-                #       args[i]=""
-                #       (( i++))
-                #       shift
-                #       # Delete "piix3-usb-uhci" section
-                #       args[i]=""
-                #       (( i++))
-                #       shift
-                #else
-                #       args[i]="$1"
-                #       (( i++ ))
-                #       shift
-                #fi
                 args[i]="$1"
                 (( i++ ))
                 shift
