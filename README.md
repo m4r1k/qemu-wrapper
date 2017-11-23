@@ -2,9 +2,9 @@
 KVM QEMU Wrapper for enabling TX and RX Queue size on VirtIO devices
 
 ## Install
-CentOS and RHEL distributions
+CentOS 7.x and RHEL 7.x distributions
 
-Make sure of not overwritting the original qemu-kvm binary file
+Make sure of not overwriting the original qemu-kvm binary file
 
 ```shell
 # Move the original qemu-kvm binary to a different location
