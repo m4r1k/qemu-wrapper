@@ -19,7 +19,7 @@ chmod +x /usr/libexec/qemu-kvm
 # Copy original SELinux context to the wrapper
 semanage fcontext -a -e /usr/libexec/qemu-system-x86_64 /usr/libexec/qemu-kvm
 
-# Apply SELinux context to both wrapper and origianl qemu-kvm binary
+# Apply SELinux context to both wrapper and original qemu-kvm binary
 restorecon -vvRF  /usr/libexec/qemu-system-x86_64
 restorecon -R -v /usr/libexec/qemu-kvm
 ```
